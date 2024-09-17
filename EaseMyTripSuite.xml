@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="WebBrowser">
+<listeners>
+<listener class-name="com.easemytrip.listener.Listeners"/>
+</listeners>
+<test name="Test Chilis In Web Browser">
+<classes>
+<class name="com.easemytrip.testscript.TestScripts">
+<methods>
+<include name="flight_Search"/>
+<include name="write_Flight_Data_to_Excel"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

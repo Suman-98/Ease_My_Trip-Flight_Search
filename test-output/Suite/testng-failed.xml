@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestChilis(failed)">
+    <classes>
+      <class name="com.testscripts.framework.TestChilis">
+        <methods>
+          <include name="TC25_WebBrowser_PayAtRataurant_Carryout_Lt_LoggedUser_TestCase"/>
+          <include name="closeBrowser"/>
+          <include name="BeforeSuite"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.testscripts.framework.TestChilis -->
+    </classes>
+  </test> <!-- TestChilis(failed) -->
+</suite> <!-- Failed suite [Suite] -->
