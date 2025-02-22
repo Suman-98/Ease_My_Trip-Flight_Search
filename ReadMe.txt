@@ -1,4 +1,4 @@
-1. Launch the Project and wait untill all the jar files completely downloaded.
+1. Launch the Project and wait until all the jar files completely downloaded.
 
 2. Open InputCity.xlsx file and choose your 'From' & 'To' City.
 
@@ -10,9 +10,9 @@
 
 6. Run the 'TestRunner.java' class as as Java Application.
 
-7. After Test completeion, Open 'OutputData.xlsx' file to view all the Flight Details on particular route.
+7. After Test completion, Open 'OutputData.xlsx' file to view all the Flight Details on particular route.
 
-8. Go to 'Reports-->EaseMyTrip-->Report-mmddyyyyhhmmss.html' and open the latest report.
+8. Go to 'Reports-->'EaseMyTrip'-->Report-mmddyyyyhhmmss.html' and open the latest report.
 
 9. Click on 'Failure Screenshot' in case of Test failure.
 
